@@ -10,7 +10,8 @@
     "消费到期",
     "退货回拨",
     "余额对账",
-    "期末归档"
+    "期末归档",
+    "账户合并"
   ],
   "rule": "消费先用最早到期批次；退款按原消费分配逆向恢复，已过期部分不得复活",
   "lane": "L5",
@@ -29,7 +30,8 @@
     "consumption",
     "refund",
     "reconcile",
-    "archive"
+    "archive",
+    "merge"
   ],
   "labels": {
     "id": "事件号",
@@ -58,6 +60,22 @@
     "refunded": "退款",
     "expired": "到期",
     "points_balanced": "积分守恒",
-    "allocations": "回拨批次"
+    "allocations": "回拨批次",
+    "account": "账户",
+    "known": "账户存在",
+    "events": "事件数",
+    "lots": "批次",
+    "primary": "主账户",
+    "accounts": "待合并账户",
+    "verdict": "裁决",
+    "status": "状态",
+    "attribution_policy": "归属策略",
+    "merged_balance": "合并后余额",
+    "usable_balance": "可用余额",
+    "settled_balance": "生效余额",
+    "rollback_balance": "回退余额",
+    "merge_id": "合并编号",
+    "state": "依据状态",
+    "counted_remaining": "计入合并"
   }
 }
